@@ -1,1 +1,157 @@
+/*=========================================
+    TABLETS (992px)
+=========================================*/
 
+@media (max-width: 992px){
+
+    .container{
+        width:95%;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .about-container,
+    .project-card{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .about-image{
+        order:-1;
+    }
+
+    .project-content{
+        padding:30px;
+    }
+
+    .project-info{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .charts{
+        grid-template-columns:1fr;
+    }
+
+    .gallery-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .why-grid,
+    .amenities-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/*=========================================
+    MOBILE (768px)
+=========================================*/
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .hero{
+        padding:120px 20px;
+        height:auto;
+    }
+
+    .hero h1{
+        font-size:38px;
+        line-height:1.3;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .about-content h2,
+    .project-content h2,
+    .section-title h2{
+        font-size:30px;
+    }
+
+    .about-features{
+        grid-template-columns:1fr;
+    }
+
+    .project-info{
+        grid-template-columns:1fr;
+    }
+
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+    .why-grid,
+    .amenities-grid{
+        grid-template-columns:1fr;
+    }
+
+    table{
+        display:block;
+        overflow-x:auto;
+    }
+
+}
+
+/*=========================================
+    SMALL MOBILE (480px)
+=========================================*/
+
+@media (max-width:480px){
+
+    .logo h2{
+        font-size:20px;
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    .btn,
+    .nav-btn{
+        width:100%;
+        text-align:center;
+    }
+
+    .project-content{
+        padding:20px;
+    }
+
+    .card,
+    .why-card,
+    .amenity-card{
+        padding:20px;
+    }
+
+    .gallery-item img{
+        height:220px;
+    }
+
+}
